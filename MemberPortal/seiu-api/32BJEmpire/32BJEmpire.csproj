@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SEIU32BJEmpire</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ServiceBusMessaging\ServiceBusRPC\ServiceBusRPC.csproj" />
+    <ProjectReference Include="..\..\common-entities\CommonEntities.csproj" />
+    <ProjectReference Include="..\..\CommonCoreEntities\CommonCoreEntities.csproj" />
+  </ItemGroup>
+
+</Project>
