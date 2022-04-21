@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74164DED-15A3-4455-B60D-83BCEEE67E46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrainingFund.Shared</RootNamespace>
+    <AssemblyName>TrainingFund.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Build for Release|AnyCPU'">
+    <OutputPath>bin\Build for Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\TranslatableAttribute.cs" />
+    <Compile Include="Constants\KeyIdentifiers.cs" />
+    <Compile Include="Constants\LinkIdentifiers.cs" />
+    <Compile Include="Interfaces\ITranslatable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BinaryFileViewModel.cs" />
+    <Compile Include="ViewModels\CanViewViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPApplicationFormSubmitViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPRequiredDependentViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStatusGridItemViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStatusModalViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCourseDetailsAndSessionsViewModel.cs" />
+    <Compile Include="ViewModels\Training\MPCourseViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPCourseSearchViewModel.cs" />
+    <Compile Include="ViewModels\EnrollmentViewModel.cs" />
+    <Compile Include="ViewModels\FilterBoxViewModel.cs" />
+    <Compile Include="ViewModels\FilterViewModel.cs" />
+    <Compile Include="ViewModels\MPGenericLinkButtonViewModel.cs" />
+    <Compile Include="ViewModels\PaginationLinkViewModel.cs" />
+    <Compile Include="ViewModels\PaginationViewModel.cs" />
+    <Compile Include="ViewModels\ScholarshipCycleBoxesViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPApplicationFormViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPCycleBoxViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPCycleGridItemViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPCycleGridViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPHomeBoxItemViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPQuestionResponseViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPQuestionTypeViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPQuestionValidationViewModal.cs" />
+    <Compile Include="ViewModels\Scholarship\MPQuestionViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPSelectionViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStepBlockViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStepHeaderViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStepModalViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStepPostViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPStepViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPHomeBoxViewModel.cs" />
+    <Compile Include="ViewModels\Scholarship\MPSubmissionDataViewModel.cs" />
+    <Compile Include="ViewModels\SearchViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCourseDetailDescriptionViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCourseDescriptionViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Enrollment\MPEnrollmentResultViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Enrollment\MPEnrollmentResultCourseBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Enrollment\MPEnrollmentStatusViewModel.cs" />
+    <Compile Include="ViewModels\Training\Events\MPEventViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPLocationViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPQuickLinksBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionInstructorItemViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionLocationItemViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionScheduleItemViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionScheduleViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionLocationViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPWelcomeBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\HomePage\MPTrainingHomeBoxItemViewModel.cs" />
+    <Compile Include="ViewModels\Training\HomePage\MPTrainingHomeBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\CareerTrack\MPCareerTrackCourseViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\CareerTrack\MPCareerTrackGroupViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPCareerTrackSearchViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCourseDetailsViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCoursePrereqBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Course\MPCoursePrereqViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPCourseSearchResultsBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPCourseSearchPropertiesViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPCourseSearchResultViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionInstructorViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Enrollment\MPEnrollmentViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPLocationBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Search\MPLocationSearchViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPLocationTypeViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPRecommendationBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Enrollment\MPResourceBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionPropertyViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionsBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Modals\Session\MPSessionNextClassViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPSiteManagerBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPSiteManagerViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPTranscriptBoxViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPTranscriptGridItemViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPTranscriptPanelViewModel.cs" />
+    <Compile Include="ViewModels\Training\Transcript\MPTranscriptSubBoxViewModel.cs" />
+    <Compile Include="ViewModels\ValidationViewModal.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
