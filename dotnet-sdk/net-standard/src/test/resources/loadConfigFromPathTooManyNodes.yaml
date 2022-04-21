@@ -1,0 +1,8 @@
+enabled: true
+developerMode: true
+thisNodeIsNotDefinedInObject: 
+  test: thisObjectShouldBeIgnored
+applicationInsights:
+  instrumentationKey: dummyInstrumentationKey
+  appId: dummyId
+  apiKey: dummyAPIKey

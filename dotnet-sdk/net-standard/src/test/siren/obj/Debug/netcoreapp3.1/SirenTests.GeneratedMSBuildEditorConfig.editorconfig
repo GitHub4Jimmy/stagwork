@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = StagwellTech.SirenTests
+build_property.ProjectDir = C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\test\siren\

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StagwellTech.Siren</id>
+    <version>1.0.0</version>
+    <authors>StagwellTech.Siren</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.ApplicationInsights" version="2.20.0" exclude="Build,Analyzers" />
+        <dependency id="YamlDotNet" version="11.2.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\bin\Release\netstandard2.1\StagwellTech.Siren.dll" target="lib\netstandard2.1\StagwellTech.Siren.dll" />
+  </files>
+</package>
