@@ -1,0 +1,3 @@
+---
+siren:
+  provider: com.stagwelltech.siren.util.SirenTestProviders$SirenProviderAbstract

@@ -1,0 +1,9 @@
+---
+siren:
+  enabled: true
+  provider: com.stagwelltech.siren.sdk.impl.SirenSDKCWImpl
+  async: true
+  asyncWaitTime: 500
+  aws:
+    region: us-east-1
+    httpConnectionsCount: 150

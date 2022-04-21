@@ -1,0 +1,3 @@
+---
+siren:
+  provider: com.stagwelltech.siren.sdk.impl.DoesNotExist

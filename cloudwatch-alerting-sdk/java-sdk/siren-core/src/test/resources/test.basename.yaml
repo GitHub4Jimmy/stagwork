@@ -1,0 +1,5 @@
+test:
+  i: 15
+  f: 12.5
+  b: false
+  s: world, hello
