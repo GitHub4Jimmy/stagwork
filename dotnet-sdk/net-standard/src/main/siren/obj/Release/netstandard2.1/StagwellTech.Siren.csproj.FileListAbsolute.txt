@@ -1,9 +1,0 @@
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\bin\Release\netstandard2.1\StagwellTech.Siren.deps.json
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\bin\Release\netstandard2.1\StagwellTech.Siren.dll
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\bin\Release\netstandard2.1\StagwellTech.Siren.pdb
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.AssemblyInfoInputs.cache
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.AssemblyInfo.cs
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.csproj.CoreCompileInputs.cache
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.dll
-C:\Users\Denver.Dai\Documents\GitHub\cloudwatch-alerting-sdk\dotnet-sdk\net-standard\src\main\siren\obj\Release\netstandard2.1\StagwellTech.Siren.pdb

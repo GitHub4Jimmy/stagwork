@@ -1,6 +1,0 @@
-enabled: true
-developerMode: true
-applicationInsights:
-  instrumentationKey: dummyInstrumentationKey
-  appId: dummyId
-  apiKey: dummyAPIKey
