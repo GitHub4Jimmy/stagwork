@@ -1,0 +1,7 @@
+siren:
+  enabled: true
+  developerMode: true
+  applicationInsights:
+    instrumentationKey: a9f5dd66-635f-4efb-8ab4-567d60630c29
+    appId: e51b01f3-477d-4730-92a3-bf7d66be9271
+    apiKey: 8gjpw5rg17cqkitwe5krbgfwtn6lc0hw5qlcyokj
