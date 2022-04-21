@@ -1,0 +1,10 @@
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\bin\Debug\netstandard2.0\StagwellTech.ServiceBusRPC.deps.json
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\bin\Debug\netstandard2.0\StagwellTech.ServiceBusRPC.dll
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\bin\Debug\netstandard2.0\StagwellTech.ServiceBusRPC.pdb
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\ServiceBusRPC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\ServiceBusRPC.AssemblyInfoInputs.cache
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\ServiceBusRPC.AssemblyInfo.cs
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\ServiceBusRPC.csproj.CoreCompileInputs.cache
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\StagwellTech.ServiceBusRPC.dll
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\StagwellTech.ServiceBusRPC.pdb
+C:\Users\Denver.Dai\Documents\GitHub\ServiceBusMessaging\ServiceBusRPC\obj\Debug\netstandard2.0\ServiceBusRPC.csproj.AssemblyReference.cache

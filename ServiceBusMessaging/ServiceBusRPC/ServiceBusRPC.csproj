@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>StagwellTech.ServiceBusRPC</AssemblyName>
+    <RootNamespace>StagwellTech.ServiceBusRPC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.1.2" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
